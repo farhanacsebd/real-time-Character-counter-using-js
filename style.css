@@ -13,7 +13,7 @@ body{
 
 .container{
     width: 500px;
-    padding: 20px;
+    padding: 50px;
     margin: 5px;
     border-radius: 10px;
     background-color: rgba(0,0,0,0.5);
@@ -29,4 +29,29 @@ body{
     padding: 10px;
     box-sizing: border-box;
     border: none;
+    border-radius: 3px;
+}
+
+.counter-container{
+    display: flex;
+    justify-content: space-between;
+    padding:  0 5px;
+}
+
+.counter-container p{
+    font-size: 22px;
+    color: #ffffff;
+}
+
+h2{
+    font-size: 27px;
+    color: #ffffff;
+}
+
+.total-counter{
+    color: #ffef3c;
+}
+
+.remaining-counter{
+    color: #ff0000;
 }
